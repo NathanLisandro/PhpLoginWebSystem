@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    
+     
+       background: url('james-harrison-vpOeXr5wmR4-unsplash.jpg');
+       background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    html{
+        height: 100%;
+    }
+
+    .formulario_cadastro{
+
+        margin-top: 25vh;
+        height: 45vh;
+        width: 32vw;
+        background-color: gray;
+        margin-left: 33vw;
+        border-radius: 15px;
+        padding: 3rem;
+      
+        }
+       .formulario_input_nome,.formulario_input_email, .formulario_input_senha {
+          width: 100%;
+          
+        }
+        .formulario_botao_cadastrar{
+            width: 50% !important;
+            text-align: center !important;
+        }
+        .espacamento_itens{
+            margin-top: 0.3rem;
+           justify-content: center;
+            
+        }
+        .formulario_botao_cadastrar{
+          margin-top: 2rem;
+            width: 100%!important;
+        }
+        .botao_formulario{
+            width: 75%!important;
+        }
+        .titulo_formulario_cadastro{
+            text-align: center;
+        }
+        @media screen and (max-width: 1465px) {
+            body{
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                 
+                   background: url('services-1-768x802.png');
+                   background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                
+                }
+                html{
+                    height: 100%;
+                }
+                .formulario_cadastro{
+
+                    margin-top: 23rem;
+                    height: 38vh;
+                    width: 45vw;
+                    background-color: gray;
+                    margin-left: 28vw;
+                    border-radius: 15px;
+                    padding: 3rem;
+                  
+                    }
+        }

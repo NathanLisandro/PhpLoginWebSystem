@@ -1,0 +1,171 @@
+
+    
+
+body{
+margin: 0;
+
+ 
+   background: url('james-harrison-vpOeXr5wmR4-unsplash.jpg');
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+html{
+    height: 100%;
+}
+
+.titulo_login{
+width: 100%;
+margin-right: 5px;
+
+font-size: xx-large!important;
+}
+.formulario_login{
+
+margin-top: 22rem;
+width: 50vw;
+height: 50vh;
+background-color: gray;
+margin-left: 50rem;
+border-radius: 15px;
+padding: 3rem;
+}
+.espacamento_itens{
+    margin-top: 0.3rem;
+    text-align: center;
+    
+}
+
+
+.button_formulario{
+margin-left: 7rem;
+}
+.input_email_formulario, .input_senha_formulario{
+    width: 20rem;
+}
+
+.erro_login{
+ 
+animation: hideAnimation 0s ease-in 5s;
+animation-fill-mode: forwards;
+    color:red;
+  
+    background-color: gray;
+height: 5rem;
+width: 5rem; 
+background-color: s;
+margin-left: 50rem;
+border-radius: 15px;
+text-align: center;
+padding: 3rem;
+
+
+}
+
+@keyframes hideAnimation{
+    to{
+    
+      
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body{
+        margin: 0;
+
+ 
+        background: url('services-1-768x802.png');
+        background-repeat: no-repeat;
+         background-size: 100% 100%;
+    }
+    .espacamento_itens{
+        margin-top: 0.8rem;
+       text-align: center;
+
+   
+        
+    }
+    .input_email_formulario,.input_senha_formulario{
+     
+        width: 65%;
+        margin-left: 4rem;
+    }
+    .formulario_label_email{
+        margin-right: 0;
+    }
+    .formulario_login{
+    margin-left: 20vw;
+    padding: 4rem;
+
+    margin-top: 20rem;
+    width: 50vw;
+    height: 33vh;
+    background-color: gray;
+    border-radius: 15px;
+   margin-left: 18rem;
+
+
+    }
+    html{
+        height: 100%;
+    }
+    .button_formulario{
+        width: 100%!important;
+margin-left: 0;
+
+        }
+       
+    
+}
+@media screen and (min-width: 1024px){
+    body{
+        margin: 0;
+
+        background: url('james-harrison-vpOeXr5wmR4-unsplash.jpg');
+        background-repeat: no-repeat;
+         background-size: 100% 100%;
+    }
+    .formulario_login{
+    margin-left: 33vw;
+    padding: 2rem;
+    align-items: center;
+    margin-top: 23rem;
+    width: 33vw;
+    height: 32vh;
+    background-color: gray;
+  border-radius: 15px;
+
+    }
+   
+    html{
+        height: 100%;
+    }
+    .button_formulario{
+        width: 100%!important;
+margin-left: 0;
+
+        }
+        .erro_login{
+ 
+            animation: hideAnimation 0s ease-in 5s;
+            animation-fill-mode: forwards;
+                color:red;
+              
+                background-color: gray;
+            height: 10vh;
+            width: 33vw; 
+            background-color: s;
+            margin-left: 33vw;
+            border-radius: 15px;
+            text-align: center;
+            padding: 3rem;
+            
+            
+            }
+        
+    
+}
+
