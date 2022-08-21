@@ -1,28 +1,29 @@
 # PhpLoginWebSystemv1
-##SOBRE O PROJETO
+<h1>SOBRE O PROJETO</h1>
 
-Sistema de login feito para um painel de atendimento ao cliente, atualmente está em desenvolvimento, somente com a parte do login e cadastro funcionando.
+Sistema de login feito para um painel de atendimento ao cliente, atualmente está em desenvolvimento, somente com a parte do login e cadastro funcionando. 
+Deste modo, este Readme.md será atualizado com uma certa frequência até que o projeto esteja pronto.
 
-##TECNOLOGIAS UTILIZADAS 
+<h1>TECNOLOGIAS UTILIZADAS </h1>
 
-#BACK-END
-• mysql
-• php
+<h2 style="color: purple">BACK-END</h1>
+<p style="font-size: 20px">• mysql</p>
+<p style="font-size: 20px">• php</p>
 
-#FRONT-END
-• HTML
-• CSS
-• Bootstrap
+<h2 style="color: green">FRONT-END</h1>
+<p style="font-size: 20px">• HTML</p>
+<p style="font-size: 20px">• CSS </p>
+<p style="font-size: 20px">• Bootstrap</p>
 
-##Implantação em produção
-• Banco de Dados: mysql (phpmyadmin)
-• Todos rodando em localhost
+<h1>Implantação em produção</h1>
+<p style="font-size: 20px">• Banco de Dados: mysql (phpmyadmin)</p>
+<p style="font-size: 20px">• Tudo rodando em localhost</p>
 
-##Como executar o projeto
-#Pré-requisitos
-• Wampserver64 ou XAMP
 
-#executar o projeto
-• Abra o Wampserver64, logo após executa-lo vá até o navegador e digite:  http://localhost/PastaDoProjeto/login.php, no meu caso seria: 
-http://localhost/ProjetosPHP/PhpWebLoginSystem/login.php
+<h2>Pré-requisitos</h2>
+<p style="font-size: 20px">• Wampserver64 ou XAMP</p>
+
+<h1>Execução</h1>
+<p style="font-size: 20px">Abra o Wampserver64, logo após executa-lo vá até o navegador e digite:  http://localhost/PastaDoProjeto/login.php, no meu caso seria: 
+http://localhost/ProjetosPHP/PhpWebLoginSystem/login.php</p>
 
